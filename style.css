@@ -269,3 +269,21 @@ nav .logo h2 {
     bottom: 0;
     left: -50px;
 }
+
+/* footer  -----*/
+footer {
+    background:#FFF4E7;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+footer p{
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.hide{
+    display: none;
+}
