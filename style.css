@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+.img-fluid {
+    width: 100%;
+}
+.btn-primary{
+    padding: 15px 25px;
+    font-size: 15px;
+    display: inline-block;
+    background: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* common css stye  */
+
+
+
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #424242;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+nav ul li:hover {
+    color: #FF900E;
+}
+
+nav .logo h2 {
+    color: #131313;
+}
+
+/* hero section  */
+
+.hero-container {
+    padding: 20px 0;
+}
+
+.hero-content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+.hero-discription{
+    margin: 15px 0;
+    color: #727272;
+    word-spacing: 2px;
+    font-size: 14px;
+}
+
