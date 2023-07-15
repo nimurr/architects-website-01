@@ -106,7 +106,7 @@ nav .logo h2 {
 
 /* features section start -------------------- */
 
-.features {
+.teams {
     padding: 50px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -115,29 +115,63 @@ nav .logo h2 {
 
 }
 
-.features-images {
+.team-images {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
 }
 
-.features-content h2 {
+.team-content h2 {
     font-size: 45px;
 }
 
-.features-content .features-title-dark {
+.team-content .team-title-dark {
     color: #424242;
     font-weight: 500;
 }
 
-.features-content .features-title-colorful {
+.team-content .team-title-colorful {
     color: #FF900E;
 }
 
-.features-content p {
+.team-content p {
     color: #727272;
     font-size: 16px;
     font-weight: 400;
     margin: 15px 0;
     line-height: 1.5;
+}
+
+/* facts  ------------------------------- */
+.facts-container{
+    margin: 100px 0;
+}
+.facts-content{
+    width: 50%;
+}
+.facts-content h2{
+    color: #131313;
+    font-size: 40px;
+}
+.facts-content p{
+    color: #424242;
+    margin-top: 10px;
+}
+.facts-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px, 1fr));
+    justify-content: space-around;
+    grid-gap: 30px;
+    text-align: center;
+    margin: 50px 0;
+}
+.facts-item{
+    border: 2px solid #FF900E;
+    padding: 30px;
+    border-radius: 10px;
+    height: 200px; 
+}
+.facts-item h2{
+    color: #424242;
+    line-height: 2;
 }
