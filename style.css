@@ -25,7 +25,8 @@ li {
 .img-fluid {
     width: 100%;
 }
-.btn-primary{
+
+.btn-primary {
     padding: 15px 25px;
     font-size: 15px;
     display: inline-block;
@@ -36,6 +37,7 @@ li {
     font-weight: 600;
     cursor: pointer;
 }
+
 /* common css stye  */
 
 
@@ -93,10 +95,49 @@ nav .logo h2 {
     font-size: 64px;
     font-weight: 700;
 }
-.hero-discription{
+
+.hero-discription {
     margin: 15px 0;
     color: #727272;
     word-spacing: 2px;
     font-size: 14px;
 }
 
+
+/* features section start -------------------- */
+
+.features {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+
+}
+
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.features-content h2 {
+    font-size: 45px;
+}
+
+.features-content .features-title-dark {
+    color: #424242;
+    font-weight: 500;
+}
+
+.features-content .features-title-colorful {
+    color: #FF900E;
+}
+
+.features-content p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px 0;
+    line-height: 1.5;
+}
