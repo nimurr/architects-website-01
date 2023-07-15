@@ -175,3 +175,97 @@ nav .logo h2 {
     color: #424242;
     line-height: 2;
 }
+
+/* sponsors section  -------------------*/
+
+.sponsors-heading{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsors-heading h2{
+    color: #131313;
+    font-size: 40px;
+}
+.sponsors-heading p{
+    margin: 15px 0;
+    color: #424242;
+}
+
+.sponsors-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(180px , 1fr));
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 50px 0;
+    grid-gap: 30px;
+   
+}
+.sponsors-card img{
+    width:150px;
+    margin: auto;
+    padding: 30px;
+    cursor: pointer;
+}
+/* features  -----------------*/
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(500px , 1fr ));
+    margin: 50px 0;
+    gap: 50px;
+}
+.features-heading > div{
+    display: flex;
+    align-items: center;
+}
+.features-heading span{
+    height: 100px;
+    width: 8px;
+    background: #FF900E;
+    margin-right: 8px;
+}
+.features-heading h2{
+    font-size: 45px;
+}
+.features-heading  p{
+    margin: 20px 0;
+    color: #424242;
+}
+.features-card .features-card-item{
+    padding: 20px;
+    box-shadow: 5px 5px 10px #f0f0f0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+}
+.features-card .features-card-item h3{
+    color: #424242;
+    margin-bottom: 5px;
+}
+.features-card .features-card-item p{
+    color: #727272;
+}
+.features-img > div{
+    width: 100%; 
+    position: relative;
+    
+}
+.features-img img{
+    width: 100%;
+    height: auto;
+}
+
+.ten-years-batch{
+    background: #FF900E;
+    color: #f0f0f0;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+}

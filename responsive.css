@@ -1,10 +1,33 @@
 @media screen and (max-width : 576px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    
     .teams{
         grid-template-columns:1fr;
     }
     .facts-content{
         width: 100%;
     }
+    .sponsors-heading{
+        width: 100%;
+    }
+    .features-card .features-card-item , .features-heading{
+        max-width: 95vw;
+    }
+    .features-heading h2{
+        font-size: 35px;
+    }
+    .features-img img{
+        height: 50vh;
+        width: 95vw;
+    }
+    
+.ten-years-batch{ 
+    bottom: 0;
+    left: 0;
+}
 }
 @media screen and (min-width : 576px) and (max-width:992px) {
     .teams{
@@ -12,5 +35,12 @@
     }
     .facts-content{
         width: 80%;
+    }
+    .sponsors-heading{
+        width: 100%;
+    }
+    .features-img img{
+        height: 80vh;
+        width: 100%;
     }
 }
